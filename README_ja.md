@@ -5,3 +5,4 @@
  &beta;-D-glucose のAMBER 用のパラメータトポロジーファイル
 - 0GB.remoe_duplication.mdcrd<br>
  パラメータ最適化に用いた構造の座標データ、上記のトポロジーファイルに対応
+- 
