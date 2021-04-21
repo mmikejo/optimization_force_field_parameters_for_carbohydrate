@@ -12,3 +12,12 @@
 パラメータフィッティングに用いたコードを Jupyter のノートブック形式、コメントアウトは現在日本語
 - charge_torsion_fit_tor6period.py <br>
 上記のノートブックから作成した Python 用のコード
+
+# 必要要件
+以下のライブラリでの動作を確認
+Python : 3.7 <br>
+tensorflow : 1.11.0 <br>
+pandas : 0.23.4 <br>
+matplotlib : 3.0.0 <br>
+numpy : 1.14.5 <br>
+scikit-learn : 0.20.0 <br>
