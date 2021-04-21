@@ -14,8 +14,8 @@
 上記のノートブックから作成した Python 用のコード
 
 # 必要要件
-以下のライブラリでの動作を確認
-Python : 3.7 <br>
+以下の実行環境およびライブラリでの動作を確認 <br>
+Python : 3.6.6 <br>
 tensorflow : 1.11.0 <br>
 pandas : 0.23.4 <br>
 matplotlib : 3.0.0 <br>
