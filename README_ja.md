@@ -3,7 +3,7 @@
 # 構成
 - README_ja.md <br>
 - 0GB.nowat.prmtop <br>
- &beta;-D-glucose のAMBER 用のパラメータトポロジーファイル
+ &beta;-D-glucose のAMBER 用のGLYCAM06力場を用いたパラメータトポロジーファイル
 - 0GB.remoe_duplication.mdcrd <br>
  パラメータ最適化に用いた構造の座標データ、上記のトポロジーファイルに対応
 - beta_D_glucose_lowest_energy_confomer_with_b3lyp.pdb <br>
@@ -12,6 +12,10 @@
 パラメータフィッティングに用いたコードを Jupyter のノートブック形式、コメントアウトは現在日本語
 - charge_torsion_fit_tor6period.py <br>
 上記のノートブックから作成した Python 用のコード
+- beta_glucose.mod.prep
+最適化後の原子電荷を記したPrepファイル
+- frcmod.beta_glucose.mod.dat
+最適化後の二面角パラメータを記したfrcmodファイル
 
 # 入力データ (Google Drive https://drive.google.com/drive/folders/1jAbYIfcm9tVxtbwxN_IMbM1gdB1LOR6T?usp=sharing )
 - 0GB.charge.txt <br>
