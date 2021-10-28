@@ -12,9 +12,9 @@
 パラメータフィッティングに用いたコードを Jupyter のノートブック形式、コメントアウトは現在日本語
 - charge_torsion_fit_tor6period.py <br>
 上記のノートブックから作成した Python 用のコード
-- beta_glucose.mod.prep
-最適化後の原子電荷を記したPrepファイル
-- frcmod.beta_glucose.mod.dat
+- beta_glucose.mod.prep <br>
+最適化後の原子電荷を記したPrepファイル 
+- frcmod.beta_glucose.mod.dat <br>
 最適化後の二面角パラメータを記したfrcmodファイル
 
 # 入力データ (Google Drive https://drive.google.com/drive/folders/1jAbYIfcm9tVxtbwxN_IMbM1gdB1LOR6T?usp=sharing )
