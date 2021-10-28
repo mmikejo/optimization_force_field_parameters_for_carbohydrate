@@ -1,0 +1,167 @@
+OPTIMIZED TORSION PARAMETERS FOR BETA-GLUCOSE , IN THE WORK,"Improvement of the force ?eld for b-D-glucose with machine learning"
+cG 12.01                !            sp3 C aliphatic
+h1 1.008                             H aliph. bond. to C with 1 electrwd. groups
+h2 1.008                             H aliph. bond. to C with 2 electrwd. groups
+hO 1.008                             H hydroxyl group
+oH 16.00                             O hydroxyl group
+oS 16.00                             O ether
+
+C   hO  oH  oS
+cG-cG  310.0    1.520       Butane (gauche, and trans)
+cG-h1  340.0    1.090       Parm94
+cG-h2  340.0    1.090       Parm94
+cG-oH  320.0    1.430       Methanol
+oH-hO  553.0    0.960       Methanol
+cG-oS  285.0    1.460       Parm94   K calculated from methyl sulphate (eqm value from THEOCHEM 395/396 (1997) 107-122)
+
+h1-cG-h1     45.00    109.50   Methanol, Propanol
+h2-cG-h2     45.00    109.50   Methanol, Propanol
+cG-cG-h1     45.00    111.00   Propanol
+cG-cG-h2     45.00    111.00   Propanol
+cG-cG-cG     45.00    113.50   Propane
+oH-cG-cG     70.00    107.50   Ethanol
+h1-cG-oH     60.00    110.00   Methanol (best fit for trans and gauche hyrdogens)
+h2-cG-oH     60.00    110.00   Methanol (best fit for trans and gauche hyrdogens)
+cG-oH-hO     55.00    109.50   Methanol
+cG-oS-cG     50.00    111.60   Methoxymethane (Dimethyl ether)
+oS-cG-cG     70.00    108.50   Methoxyethane (Ethylmethyl ether)
+h1-cG-oS     60.00    110.00   Methoxymethane (Dimethyl ether) - best fit for trans and gauche hyrdogens
+h2-cG-oS     60.00    110.00   Methoxymethane - best fit for trans and gauche hyrdogens
+oS-cG-oS    100.00    112.00   Dimethoxymethane, 1,1 Dimethoxyethane
+oH-cG-oS    100.00    112.00   Copy of oS-cG-oS (not derived)
+
+h1-cG-cG-h1   1   -0.01         -8.7            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.01          0.9            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.14          7.5            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.02          6.0            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.03        -27.6            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.00         35.3             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+h1-cG-cG-h2   1   -0.01          7.2            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.00         12.5            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.19         26.4            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.01          6.1            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.01         21.2            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.03         18.2             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+h1-cG-cG-cG   1    0.03         12.1            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.03        -46.6            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.15         47.5            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.05         -0.1            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.04        -29.3            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.10         89.4             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+h2-cG-cG-cG   1    0.00         -1.7            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.02         -2.9            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.17         25.9            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.01        -19.1            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.00         20.1            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.03         15.4             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+hO-oH-cG-h1   1    0.05         20.4            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.03          6.5            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.19        -32.2            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.08         23.5            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.05        126.9            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.04        -58.8             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+hO-oH-cG-h2   1   -0.04        -50.8            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.08         60.4            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.23        -11.2            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.03        -45.0            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.08         25.8            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.07        -74.7             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+hO-oH-cG-cG   1   -0.08         40.2            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.07         97.0            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.23          6.6            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.06         45.0            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.01         30.9            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.08        -16.0             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+cG-cG-cG-cG   1    0.44        -37.4            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.02         -7.3            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.01         18.7            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.04          8.6            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.01         -5.2            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.02          8.4             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+oH-cG-cG-h1   1   -0.00         -6.0            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.03         32.2            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.02        -16.2            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.05         27.4            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.05        -32.5            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.07        -39.2             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+oH-cG-cG-h2   1    0.01         -6.7            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.02         10.0            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.08         29.3            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.01         23.5            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.02         -7.7            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.03         26.7             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+oH-cG-cG-cG   1   -0.01         11.6            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.02         36.9            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.09        -43.5            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.06       -101.0            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.05        -40.0            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.08          5.2             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+oS-cG-cG-cG   1   -0.26        -43.6            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.02          7.6            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.02         21.8            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.01         33.8            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.02        -17.7            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.03          6.6             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+h1-cG-oS-cG   1    0.01         -2.8            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.01         14.8            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.27        -18.6            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.00         -5.1            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.03        -13.8            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.03         23.0             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+cG-oS-cG-cG   1   -0.00          9.5            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.01        -19.2            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.15         13.2            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.05          9.8            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.09        -14.5            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.08         28.3             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+oH-cG-cG-oH   1   -0.10         11.6            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.94        -29.3            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.55        -24.2            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.02        -13.7            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.01         -1.4            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.05        -14.8             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+oH-cG-cG-oS   1   -1.12        -17.5            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.22        -44.1            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.03         24.7            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.03         -3.4            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.07        -10.8            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.04         11.5             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+oS-cG-oH-hO   1    0.04          6.6            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.08          6.0            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.22         -8.6            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.04          3.5            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.08        -34.1            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.07        -82.5             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+oH-cG-oS-cG   1    1.08        -14.3            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    1.38         18.3            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.95        -30.2            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.02          7.0            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.05        -63.1            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.03        -12.0             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+h2-cG-oS-cG   1    0.00          1.8            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.60          1.1            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.09        -29.4            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.04        -51.9            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.05         42.8            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.03        -19.7             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+h1-cG-cG-oS   1    0.02         23.1            -1.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.02        -20.1            -2.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1    0.07         28.2            -3.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.07         10.6            -4.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.07         -1.7            -5.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+              1   -0.05         71.4             6.         SCEE=1.02 SCNB=1.0 optimized parameter for beta Glucose
+
+  HW  OW  0000.     0000.                                4.  flag for fast water
+ 
+MOD4      RE
+  hO          0.2000  0.0300             M.B. Tessier 2011
+  h1          1.3870  0.0157             Veenstra et al JCC,8,(1992),963 
+  h2          1.2870  0.0157             Veenstra et al JCC,8,(1992),963 
+  oH          1.7210  0.2104             OPLS 
+  oS          1.6837  0.1700             OPLS ether
+  cG          1.9080  0.1094             Spellmeyer
+
+END
+END
+
+Notes:  
